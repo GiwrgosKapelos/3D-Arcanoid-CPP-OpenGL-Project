@@ -6,8 +6,8 @@ Created By [Ioannis Papachristou](https://github.com/dit18146) and [Georgios Kap
 An Arcanoid 3D Appilcation created using **C++** and **OpenGl** libraries.  
   
 Contains A.I. autoplay or manual player gameplay.  
-Various Camera positions  
-Lives and many other features  
+Various Camera positions.  
+Lives and many other features.  
   
 Key Bindings  
 **w,a,s,d** movement.      

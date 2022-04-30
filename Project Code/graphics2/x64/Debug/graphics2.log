@@ -1,0 +1,73 @@
+﻿Build started 15/7/2021 6:05:49 μμ.
+     1>Project "C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\graphics2.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\graphics2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702\bin\HostX86\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt main.cpp visuals.cpp
+         main.cpp
+         visuals.cpp
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\main.cpp(22,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(774,27): warning C4244:  'argument': conversion from 'double' to 'GLint', possible loss of data
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(774,21): warning C4244:  'argument': conversion from 'double' to 'GLint', possible loss of data
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(780,25): warning C4305:  'argument': truncation from 'double' to 'GLfloat'
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(788,31): warning C4305:  'argument': truncation from 'double' to 'GLfloat'
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(855,23): warning C4305:  'initializing': truncation from 'double' to 'float'
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1563,24): warning C4305:  'initializing': truncation from 'double' to 'float'
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1564,22): warning C4305:  'initializing': truncation from 'double' to 'float'
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1619,22): warning C4305:  '+=': truncation from 'double' to 'float'
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1629,22): warning C4305:  '-=': truncation from 'double' to 'float'
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1640,16): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1651,16): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1712,21): warning C4305:  '=': truncation from 'double' to 'GLfloat'
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1720,21): warning C4305:  '=': truncation from 'double' to 'GLfloat'
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1728,22): warning C4305:  '=': truncation from 'double' to 'GLfloat'
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1736,21): warning C4305:  '=': truncation from 'double' to 'GLfloat'
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1744,21): warning C4305:  '=': truncation from 'double' to 'GLfloat'
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1752,21): warning C4305:  '=': truncation from 'double' to 'GLfloat'
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1788,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1793,20): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1796,21): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1798,20): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+     1>C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1801,21): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\x64\Debug\graphics2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\x64\Debug\graphics2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\x64\Debug\graphics2.lib" /MACHINE:X64 x64\Debug\main.obj
+         x64\Debug\visuals.obj
+         graphics2.vcxproj -> C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\x64\Debug\graphics2.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\graphics2.tlog\unsuccessfulbuild".
+         Touching "x64\Debug\graphics2.tlog\graphics2.lastbuildstate".
+     1>Done Building Project "C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\graphics2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+       "C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\graphics2.vcxproj" (Build target) (1) ->
+       (ClCompile target) -> 
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\main.cpp(22,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(774,27): warning C4244:  'argument': conversion from 'double' to 'GLint', possible loss of data
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(774,21): warning C4244:  'argument': conversion from 'double' to 'GLint', possible loss of data
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(780,25): warning C4305:  'argument': truncation from 'double' to 'GLfloat'
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(788,31): warning C4305:  'argument': truncation from 'double' to 'GLfloat'
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(855,23): warning C4305:  'initializing': truncation from 'double' to 'float'
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1563,24): warning C4305:  'initializing': truncation from 'double' to 'float'
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1564,22): warning C4305:  'initializing': truncation from 'double' to 'float'
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1619,22): warning C4305:  '+=': truncation from 'double' to 'float'
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1629,22): warning C4305:  '-=': truncation from 'double' to 'float'
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1640,16): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1651,16): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1712,21): warning C4305:  '=': truncation from 'double' to 'GLfloat'
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1720,21): warning C4305:  '=': truncation from 'double' to 'GLfloat'
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1728,22): warning C4305:  '=': truncation from 'double' to 'GLfloat'
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1736,21): warning C4305:  '=': truncation from 'double' to 'GLfloat'
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1744,21): warning C4305:  '=': truncation from 'double' to 'GLfloat'
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1752,21): warning C4305:  '=': truncation from 'double' to 'GLfloat'
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1788,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1793,20): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1796,21): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1798,20): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+         C:\Users\Johnny\source\repos\KWDIKAS ERGASIAS\graphics2\visuals.cpp(1801,21): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+
+    23 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.70

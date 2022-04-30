@@ -9,7 +9,7 @@ Contains A.I. autoplay or manual player gameplay.
 Various Camera positions.  
 Lives and many other features.  
   
-Key Bindings  
+Key Bindings:  
 **w,a,s,d** movement.      
 **Mouse buttons** for manual gameplay or autoplay.  
 **z , x , c , v , b and n** for changing the position camera is looking at.  

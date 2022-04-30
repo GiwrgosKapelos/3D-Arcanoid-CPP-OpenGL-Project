@@ -10,9 +10,9 @@ Various Camera positions.
 Lives and many other features.  
   
 Key Bindings:  
-**w,a,s,d** movement.      
+**w, a, s, d** movement.      
 **Mouse buttons** for manual gameplay or autoplay.  
-**z , x , c , v , b and n** for changing the position camera is looking at.  
-**t , y , u , i, o and p** for changing the general position of the camera.  
-**l , f , g , h , j and k** for preset camera positions.  
+**z, x, c, v, b and n** for changing the position camera is looking at.  
+**t, y, u, i, o and p** for changing the general position of the camera.  
+**l, f, g, h, j and k** for preset camera positions.  
  
